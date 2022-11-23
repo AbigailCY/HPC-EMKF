@@ -1,0 +1,209 @@
+
+./main_seq -x5 -y2 -t500 -o0 
+loop time: 0.000193
+inverse time: 0.000002
+multiple time: 0.000001
+add time: 0.000001
+copy time: 0.000001
+time: 0.003768
+
+./main_omp1 -x5 -y2 -t500 -o0 
+loop time: 0.025219
+inverse time: 0.000039
+multiple time: 0.000010
+add time: 0.000004
+copy time: 0.000005
+time: 0.237388
+
+./main_omp2 -x5 -y2 -t500 -o0 
+loop time: 0.023803
+inverse time: 0.000002
+multiple time: 0.000010
+add time: 0.000005
+copy time: 0.000005
+time: 0.152019
+
+./main_seq -x16 -y16 -t500 -o1 
+loop time: 0.002028
+inverse time: 0.000018
+multiple time: 0.000005
+add time: 0.000001
+copy time: 0.000001
+time: 0.065991
+
+./main_omp1 -x16 -y16 -t500 -o1 
+loop time: 0.023740
+inverse time: 0.000537
+multiple time: 0.000012
+add time: 0.000005
+copy time: 0.000005
+time: 0.745056
+
+./main_omp2 -x16 -y16 -t500 -o1 
+loop time: 0.024859
+inverse time: 0.000015
+multiple time: 0.000012
+add time: 0.000005
+copy time: 0.000005
+time: 0.187648
+
+./main_seq -x50 -y50 -t500 -o2 
+loop time: 0.024333
+inverse time: 0.001057
+multiple time: 0.000152
+add time: 0.000006
+copy time: 0.000010
+time: 2.517955
+
+./main_omp1 -x50 -y50 -t500 -o2 
+loop time: 0.040353
+inverse time: 0.003448
+multiple time: 0.000069
+add time: 0.000006
+copy time: 0.000034
+time: 4.216411
+
+./main_omp2 -x50 -y50 -t500 -o2 
+loop time: 0.035258
+inverse time: 0.001077
+multiple time: 0.000048
+add time: 0.000006
+copy time: 0.000037
+time: 1.597536
+
+./main_seq -x100 -y100 -t200 -o3 
+loop time: 0.067214
+inverse time: 0.009542
+multiple time: 0.000984
+add time: 0.000049
+copy time: 0.000039
+time: 8.056526
+
+./main_omp1 -x100 -y100 -t200 -o3 
+loop time: 0.030606
+inverse time: 0.022830
+multiple time: 0.000402
+add time: 0.000008
+copy time: 0.000097
+time: 10.746777
+
+./main_omp2 -x100 -y100 -t200 -o3 
+loop time: 0.032736
+inverse time: 0.009605
+multiple time: 0.000284
+add time: 0.000008
+copy time: 0.000041
+time: 4.901952
+
+./main_seq -x150 -y150 -t200 -o3 
+loop time: 0.173466
+inverse time: 0.032835
+multiple time: 0.003140
+add time: 0.000156
+copy time: 0.000100
+time: 26.865028
+
+./main_omp1 -x150 -y150 -t200 -o3 
+loop time: 0.062990
+inverse time: 0.069005
+multiple time: 0.001267
+add time: 0.000014
+copy time: 0.000245
+time: 32.030883
+
+./main_omp2 -x150 -y150 -t200 -o3 
+loop time: 0.054740
+inverse time: 0.032695
+multiple time: 0.000903
+add time: 0.000014
+copy time: 0.000065
+time: 16.255306
+
+./main_seq -x200 -y200 -t200 -o3 
+loop time: 0.309260
+inverse time: 0.075256
+multiple time: 0.007348
+add time: 0.000273
+copy time: 0.000187
+time: 62.512683
+
+./main_omp1 -x200 -y200 -t200 -o3 
+loop time: 0.103856
+inverse time: 0.113906
+multiple time: 0.002912
+add time: 0.000024
+copy time: 0.000355
+time: 55.288776
+
+./main_omp2 -x200 -y200 -t200 -o3 
+loop time: 0.089245
+inverse time: 0.075133
+multiple time: 0.002201
+add time: 0.000022
+copy time: 0.000273
+time: 37.424255
+
+./main_seq -x250 -y250 -t10 -o3 
+loop time: 0.026667
+inverse time: 0.146636
+multiple time: 0.014927
+add time: 0.000462
+copy time: 0.000322
+time: 6.124239
+
+./main_omp1 -x250 -y250 -t10 -o3 
+loop time: 0.008115
+inverse time: 0.208910
+multiple time: 0.005588
+add time: 0.000039
+copy time: 0.000532
+time: 5.305985
+
+./main_omp2 -x250 -y250 -t10 -o3 
+loop time: 0.008938
+inverse time: 0.146800
+multiple time: 0.004219
+add time: 0.000037
+copy time: 0.000669
+time: 3.779144
+
+./main_seq -x300 -y300 -t10 -o3 
+loop time: 0.040570
+inverse time: 0.262825
+multiple time: 0.023818
+add time: 0.000756
+copy time: 0.000466
+time: 10.784996
+
+./main_omp1 -x300 -y300 -t10 -o3 
+loop time: 0.012847
+inverse time: 0.341281
+multiple time: 0.009510
+add time: 0.000066
+copy time: 0.000765
+time: 8.652886
+
+./main_omp2 -x300 -y300 -t10 -o3 
+loop time: 0.012194
+inverse time: 0.263409
+multiple time: 0.006984
+add time: 0.000066
+copy time: 0.000251
+time: 6.684256
+
+
+ 
+-1000 -1000 -t10
+loop time: 0.537521
+inverse time: 12.172495
+multiple time: 1.489731
+add time: 0.012860
+copy time: 0.014138
+time: 488.315462
+loop time: 0.175990
+inverse time: 7.072199
+multiple time: 0.535142
+add time: 0.002513
+copy time: 0.002528
+time: 218.845077
+
